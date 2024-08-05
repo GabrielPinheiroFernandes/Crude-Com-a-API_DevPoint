@@ -1,0 +1,1 @@
+export const API_DOMAIN = 'http://192.168.0.103:3001/'
