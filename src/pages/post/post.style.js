@@ -46,5 +46,12 @@ export const styles = StyleSheet.create({
       backgroundColor:DARKTHEME.surface,
       
     },
+    orangeBar:{
+      width:'100%',
+      backgroundColor:COLORS.dark_orange,
+      height:40,
+      alignItems:'center',
+      justifyContent:'center'
+    },
   });
   

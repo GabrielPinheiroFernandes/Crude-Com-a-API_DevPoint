@@ -21,7 +21,7 @@ const Tab = createBottomTabNavigator();
 function Router() {
   return (
     <NavigationContainer >
-        <Tab.Navigator initialRouteName='Get'>
+        <Tab.Navigator initialRouteName='Home'>
 
 
         

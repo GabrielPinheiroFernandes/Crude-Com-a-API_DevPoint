@@ -40,6 +40,7 @@ function Post(){
       
     return <>
         <View style={styles.container}>
+            <View style={styles.orangeBar}><Text>Clique em qual deseja Editar</Text></View>
             <FlatList
                 style={styles.flatlist}
                 data={dadosApi}

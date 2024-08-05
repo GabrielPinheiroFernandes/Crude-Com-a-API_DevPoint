@@ -38,6 +38,7 @@ function Del(){
 
     return <>
         <View style={styles.container}>
+        <View style={styles.orangeBar}><Text>Clique na lixeira para excluir</Text></View>
             <FlatList
                     style={styles.flatlist}
                     data={dadosApi}

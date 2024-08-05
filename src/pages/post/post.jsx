@@ -46,7 +46,10 @@ function Put() {
     ];
 
     return <>
+        <View style={styles.orangeBar}><Text>Adicionar novo registro</Text></View>
         <View style={styles.container}>
+        
+
             <TextInputComponente 
                 label='Descrição da tarefa:' 
                 placeholder='Digite a descrição' 

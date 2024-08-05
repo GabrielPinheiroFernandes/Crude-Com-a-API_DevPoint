@@ -40,7 +40,14 @@ export const styles = StyleSheet.create({
       trashIcon:{
         width:20,
         height:20,
-      }
+      },
+      orangeBar:{
+        width:'100%',
+        backgroundColor:COLORS.dark_orange,
+        height:40,
+        alignItems:'center',
+        justifyContent:'center'
+      },
 
 
 })

@@ -33,6 +33,13 @@ export const styles = StyleSheet.create({
     },
     tarefa:{
       color:COLORS.bright_orange
-    }
+    },
+    orangeBar:{
+      width:'100%',
+      backgroundColor:COLORS.dark_orange,
+      height:40,
+      alignItems:'center',
+      justifyContent:'center'
+    },
   });
   
