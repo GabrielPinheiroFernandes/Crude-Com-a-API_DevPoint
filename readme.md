@@ -10,8 +10,9 @@ Para garantir que o projeto funcione corretamente, você precisa configurar a UR
 
    Execute o seguinte comando para instalar todas as dependências necessárias:
 
-   ```bash
+   ```
    npm install
+   ````
 Localize o arquivo de configuração:
 
 Navegue até o arquivo de configuração api.js, que está localizado em:
@@ -23,18 +24,18 @@ Atualize a constante API_DOMAIN:
 
 No arquivo api.js, encontre a constante API_DOMAIN e substitua pelo IP e porta onde a API do outro projeto está sendo executada. O código deve ficar assim:
 
-javascript
+````
     export const API_DOMAIN = 'http://<IP>:<PORT>/';
-
+````
 Certifique-se de substituir <IP> e <PORT> pelos valores corretos da sua API.
 
 Inicie o projeto:
 
 Para iniciar o servidor de desenvolvimento, execute o seguinte comando:
 
-
+``` 
 npx expo start
-
+```
 Isso abrirá o Expo Developer Tools no seu navegador e permitirá que você inicie o aplicativo em um simulador ou dispositivo físico.
 
 
