@@ -24,18 +24,18 @@ Atualize a constante API_DOMAIN:
 
 No arquivo api.js, encontre a constante API_DOMAIN e substitua pelo IP e porta onde a API do outro projeto está sendo executada. O código deve ficar assim:
 
-    ````
-        export const API_DOMAIN = 'http://<IP>:<PORT>/';
-    ````
+````
+    export const API_DOMAIN = 'http://<IP>:<PORT>/';
+````
 Certifique-se de substituir <IP> e <PORT> pelos valores corretos da sua API.
 
 Inicie o projeto:
 
 Para iniciar o servidor de desenvolvimento, execute o seguinte comando:
 
-    ``` 
-    npx expo start
-    ```
+``` 
+npx expo start
+```
 Isso abrirá o Expo Developer Tools no seu navegador e permitirá que você inicie o aplicativo em um simulador ou dispositivo físico.
 
 
